@@ -1,0 +1,17 @@
+.transactionHistory {
+width: 100%;
+border-collapse: collapse;
+}
+
+.cell {
+    background-color: rgb(169, 230, 210);
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #a0b0d5;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
